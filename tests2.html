@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodies and Goodies</title>
+    <!-- Favicon Link -->
+    <link rel="icon" href="media/facktsu.jpg" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            text-align: center;
+            background-color: #4CAF50; /* Green color to represent healthy foods */
+            padding: 20px;
+            color: white;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px;
+        }
+        .item {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s;
+        }
+        .item:hover {
+            transform: scale(1.05);
+        }
+        .item img {
+            width: 100%;
+            border-radius: 10px;
+            height: auto;
+        }
+        .item h3 {
+            font-size: 1.2em;
+            color: #333;
+        }
+        .item p {
+            font-size: 1em;
+            color: #777;
+        }
+        .item .price {
+            font-size: 1.5em;
+            color: #FF5722; /* Orange color for price */
+            font-weight: bold;
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+            margin-top: 20px;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .item {
+                width: 200px;
+                padding: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .item {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+            header h1 {
+                font-size: 1.5em;
+            }
+            header p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Foodies and Goodies</h1>
+    <p>Healthy Snacks for Your Cravings</p>
+</header>
+
+<div class="container">
+    <div class="item">
+        <img src="media/tamar.png" alt="Almond Snack">
+        <h3>Almond Snack</h3>
+        <p>Crunchy, roasted almonds with a touch of salt.</p>
+        <p class="price">$4.99</p>
+    </div>
+    
+    <div class="item">
+        <img src="media/granola bars.jpg" alt="Granola Bars">
+        <h3>Granola Bars Natrue Valley</h3>
+        <p>Delicious, nutrient-packed granola bars.</p>
+        <p class="price">$5.99</p>
+    </div>
+    
+    <div class="item">
+        <img src="media/fruitchips.avif" alt="Fruit Chips">
+        <h3>Fruit Chips</h3>
+        <p>Crispy and sweet dried fruit chips.</p>
+        <p class="price">$4.99</p>
+    </div>
+    
+    <div class="item">
+        <img src="media/terachips.jpg" alt="Veggie Chips">
+        <h3>Veggie Chips</h3>
+        <p>Healthy, crunchy chips made from mixed vegetables.</p>
+        <p class="price">$4.50</p>
+    </div>
+</div>
+
+<!-- Footer with Back to Store link -->
+<footer>
+    <a href="tests1.html">bennefits of healty Snacks</a>
+</footer>
+
+</body>
+</html>
